@@ -6,7 +6,7 @@
 #include<limits.h>
 
 void my_exit(int exit_code, char* message) {
-    printf("%s\n", message);
+    printf("%s", message);
     exit(exit_code);
 }
 
