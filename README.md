@@ -34,3 +34,30 @@ Working as intended
    * Check if the solution is valid at this point, exit wit SUCCESS if true, else keep going
   
 4. If we reach this step, fail, as it means all the letters on the board haven't been used
+
+## Added these test cases
+Test case 4 - Empty board
+
+Test case 5 - Board with less than 3 sides
+
+Test case 6 - Board with repeated character
+
+Test case 7 - Playing a character not on board
+
+Test case 8 - Using disconnected words
+
+Test case 9 - Using same side letter used consecutively
+
+Test case 10 - Using a word not present in dictionary
+
+Test case 11 - Game complete without using all board letters
+
+Test case 12 - Error opening file
+
+Test case 13 - Board with blank lines
+
+Test case 14 - Input with blank lines
+
+Test case 15 - Empty dictionary
+
+Test case 16 - Dictionary with blank lines
